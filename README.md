@@ -17,7 +17,7 @@ pywinauto を使用したRPA
 
 - Python 3.8.5  
 - pywinauto 0.6.8  
-- voice_input_juu7g (音声認識の場合)
+- voice_input_juu7g 1.0.3 (音声認識の場合)
 
 ## 使い方 Usage
 
