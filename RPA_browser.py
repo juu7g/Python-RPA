@@ -102,6 +102,7 @@ class RPA4Browser():
         # self.browser_dlg.set_focus()
         # self.browser_dlg.wait("ready")
 
+        # キー入力用辞書(キーストローク名:入力するキー)
         key_stroke = {"bottom":"{END}", "top":"{HOME}", "down":"{PGDN}", "up":"{PGUP}", "next_page":"次のページ", "search":"検索", "jump":"{TAB}", "back":"%{LEFT}", "see":"~"}
         logger.info(f">>>start typing keys:{key}")
         if key == "next_page":
